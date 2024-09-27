@@ -1,0 +1,40 @@
+.nav{
+    background-image: url(amazing.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.nav li{
+    align-items: center;
+    float: left;
+    list-style: none;
+}
+.nav ul{
+    overflow: hidden;
+    background-color: yellow;
+    padding: 10px;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 200px;
+    display: block;`
+    text-align: center;
+}
+.divine{
+    color: yellow;
+    padding-right: 1000px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.nav a :hover{
+    background-color: rgb(255, 230, 0);
+    padding:  
+}
+.h1{
+    font-size: 50px;
+    color: yellow;
+    padding: 30px;
+}
