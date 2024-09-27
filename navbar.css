@@ -1,0 +1,26 @@
+.nav{
+    background-image: url(ecofrien.jpeg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+}
+.nav ul{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: skyblue;
+    transition-duration: 0.5s;
+}
+.nav li{
+    list-style: none;
+}
+.dd{
+    text-align: right;
+    margin: 10px;
+    padding: 50px;
+}
+.nav a:hover{
+    transition: 3s;
+    color: black;
+}
