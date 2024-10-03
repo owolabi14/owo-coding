@@ -1,0 +1,49 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+.nav{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    text-align: center;
+}
+
+.nav li{
+    align-items: center;
+    float: left;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 200px;
+    display: block;
+    text-align: center;
+    color: tomato;
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+.nav a:hover{
+    transition: 0.5s;
+    color: rgb(37, 228, 11);
+}
+.divine{
+    color: white;
+}
+.h1{
+    color: cornflowerblue ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+.divine{
+    color: tomato;
+    padding-left: 1000px;
+    border-radius: 30px;
+    background: cornflowerblue;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+}
