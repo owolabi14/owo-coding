@@ -1,0 +1,57 @@
+.body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.fa-user-astronaut{
+    font-size: 50px;
+    color: white;
+    padding-left: 60px;
+}
+.pp{
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.nav{
+    text-align: right;
+    padding: 0px;
+    margin: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 350px;
+    margin: -40px 30px;
+}
+.nav li a{
+    list-style: none;
+    text-decoration: none;
+}
+.nav a:hover{
+    transition: 0.5s;
+    color: rgb(82, 170, 10);
+}
+.h3{
+    color: slateblue;
+    padding-right: 1200px;
+    margin-top: 150px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+h1{
+    color: white;
+    padding-right: 1000px;
+    margin-top: -40px;
+    font-size: 39px;
+    display: inline-block;
+}
+span{
+    font-size: 20px;
+    padding-right: 130px;
+    color: slateblue;
+}
+.p{
+    color: slateblue;
+}
