@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form.html</title>
+    <link rel="stylesheet" href="fornp.css">
+</head>
+<body class="body">
+   
+      <a href="" class="pp">Proudly Nigerian.</a>
+   
+      <nav class="nav">
+      <ul>
+         <li><a href="/port.html">Home</a></li>
+         <li><a href="/aboutp.html">About</a></li>
+         <li><a href="/Fornp.html">Contact</a></li>  
+         <li><a href="#">Blog</a></li>   
+         <li><a href="#">FAQ</a></li>
+      </ul>
+   </nav>
+
+   
+   
+    <h1>Wait-list</h1>
+    <form class="form" action="index.php">
+        <div>
+            <label for="fname">Firstname: <br></label>
+            <input type="text"  id="fname" name="fname" placeholder="Ojuolape" required>   
+        </div><br>
+
+        <div>
+            <label for="mname">Middlename: <br></label>
+            <input type="text" id="mname" name="mname" placeholder="Faith">
+        </div><br>
+
+        <div>
+            <label for="lname">Lastname: <br></label>
+            <input type="text"  id="lname" name="lname" placeholder="Badmus" required>  
+        </div><br>
+
+        <div>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." value="Mrs." name="title">
+            <label for="Phd.">Phd.</label>
+            <input type="radio" id="Phd." value="Phd." name="title">
+        </div><br>
+
+        <div>
+            <label for="bday">Birthday</label>
+            <input type="date" id="bday" name="bday" required>
+        </div><br>
+
+        <div>
+            <label for="email">Email;<br></label>
+            <input type="email" id="email" name="email" placeholder="Badmus123@gmail.com">
+        </div><br>
+
+        <div>
+            <label for="phone">Phone#<br></label>
+            <input type="tel" id="phone" placeholder="+234 808 169 0241" required>
+        </div><br>
+
+        <div>
+            <label for="password">Password:<br></label>
+            <input type="text" id="pass" name="pass" placeholder="specimen#1" minlength="6" maxlength="12" required>
+        </div><br>
+
+        <div>
+            <input type="reset">
+        </div><br>
+
+        <div>
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment"></textarea> 
+        </div><br>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>    
+</body>
+</html>
