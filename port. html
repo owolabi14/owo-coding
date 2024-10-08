@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Owolabi Portfolio </title>
+  <link rel="stylesheet" href="pot.css">
+</head>
+<body class="body">
+   <a href="" class="pp">Proudly Nigerian.</a>
+   <nav class="nav">
+      <ul>
+         <li><a href="/port.html">Home</a></li>
+         <li><a href="/aboutp.html">About</a></li>
+         <li><a href="/Fornp.html">Contact</a></li>  
+         <li><a href="https://www.instagram.com/invites/contact/?igsh=1bhqzvdq4umlx&utm_content=v1odrsi">Blog</a></li>   
+         <li><a href="#">FAQ</a></li>
+      </ul>
+   </nav>
+
+         <h1 class="h1">I Am</h1>
+   <h1 class="qq"> Owolabi Qudus</h1>
+   <h1 class="h1">Web Developer</h1>
+   <p class="pa">
+       I'm a passionate web developer with a keen eye <br> for detail and a love for crafting seamless user experiences.<br> With expertise in HTML, CSS, JavaScript, and various <br> frameworks, I transform ideas into responsive and <br> visually appealing websites.<br>
+   
+   Explore my projects to see how I blend creativity with <br> technical skills to deliver innovative solutions.<br> Let's connect and bring your vision to life!</p>
+   <img src="/281144050_141944778417048_8757062038566727223_n.jpg" class="img" alt="">
+
+</body>
+
+</html>
