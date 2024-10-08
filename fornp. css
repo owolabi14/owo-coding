@@ -1,0 +1,47 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.pp{
+   font-size: 30px;
+   color: chartreuse;
+   text-decoration: none;
+   list-style: none;
+}
+.nav ul{
+   display: flex;               
+   justify-content: space-around;   
+   list-style: none;                
+   font-size: 15px;
+   padding-bottom: -100px;
+   padding-left: 300px;
+   margin-top: -30px;
+}
+.nav li{
+   display: inline-block;
+}
+.nav a{
+   text-decoration: none;
+   color: slateblue;
+}
+.nav a :hover{
+   color: chartreuse;
+   transition-duration: 0.5s;
+}
+.body h1{
+   color: chartreuse;
+   text-align: center;
+   padding-top: 20px;
+}
+.form{
+   color: slateblue;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 40px;
+}
+.form input{
+   color: slateblue;
+   border-radius: 100px;
+   height: 30px;
+}
